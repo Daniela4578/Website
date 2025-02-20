@@ -12,7 +12,83 @@
             <li><a class = "active" href="newaccount.html">Create new account</a></li>
           </ul>
         <div>
-            <h2>First name:</h2>
+            <h2>Personal information</h2>
+
+            <p id="para1">
+                <form1>
+                    First name:
+                    <input type="text" id="fname" name="fname">
+                </form1>
+                <form1>
+                    Second name:
+                    <input type="text" id="sname" name="sname">
+                </form1>
+                <form1>
+                    E-mail:
+                    <input type="email" id="email" name="email">
+                </form1>
+            </p>
+
+            <p id="para1">
+                <form1>
+                    Gender:
+                    <input type="radio" id="man" name="gender">
+                    <label for="man">man</label>
+                    <input type="radio" id="woman" name="gender">
+                    <label for="woman">woman</label>    
+                </form1>
+                <form1>
+                    Age:
+                    <select name="age" id="age">
+                        <option value="16">below 10</option>
+                        <option value="16-18">between 10 and 16</option>
+                        <option value="18-20">between 17 and 20</option>
+                        <option value="20-30">between 21 and 30</option>
+                        <option value="30-40">between 31 and 40</option>
+                        <option value="40-50">between 41 and 50</option>
+                        <option value="51">above 51</option>
+                    </select>
+                </form1>
+            </p>
+        </div>
+        <div>
+            <h2>Account information</h2>
+
+            <p id="para1">
+                <form1>
+                    Nickname:
+                    <input type="text" id="nickname" name="nickname">
+                </form1>
+                <form1>
+                    Bio:
+                    <textarea id="bio" name="bio"  placeholder="Hi, guys"></textarea>
+                </form1>
+            </p>
+
+            <p id="para1">
+                <form1>
+                    Icon:
+                    <input type="image" name="icon" id="icon" width="90" height="90">
+                </form1>
+            </p>
+        </div>
+        <div>
+            <h2>Security</h2>
+
+            <p id="para1">
+                <form1>
+                    Password:
+                    <input type="password" id="password" name="password">
+                </form1>
+                <form1>
+                    Repeat password:
+                    <input type="password" id="rpassword" name="rpassword">
+                </form1>
+            </p>
+
+            <p id="para1">
+                how strong is your password
+            </p>
         </div>
     </body>
 </html>
